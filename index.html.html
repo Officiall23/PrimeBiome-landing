@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRIME BIOME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            overflow: hidden; /* Bloqueia rolagem inicial */
+        }
+        #content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #cookieOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .cookie-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 500px;
+        }
+        #acceptCookies {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>PRIME BIOME</h1>
+        <h2>Ingredients FREE Bonuses FAQ Order Now</h2>
+        <hr>
+        <h2>The Skin-Gut Cell Turnover Breakthrough</h2>
+        <p>Skin cell turnover rejuvenates skin by replacing old cells with new ones. This process is important to maintain in order to support healthy aging, optimal gut health and for the appearance of healthy youthful skin. PrimeBiome supports beneficial bacteria, helping to promote better skin health and a more youthful appearance.</p>
+        <h3>PRIME BIOME</h3>
+        <ul>
+            <li>GMP</li>
+            <li>GATHERED</li>
+            <li>MADE IN A PROBLEM</li>
+            <li>FLOOR</li>
+            <li>SPLENDID</li>
+            <li>COLD</li>
+            <li>FIRE</li>
+        </ul>
+    </div>
+
+    <div id="cookieOverlay">
+        <div class="cookie-box">
+            <h2>Atenção</h2>
+            <p>Este site utiliza cookies. Ao continuar, você será redirecionado para nossa oferta especial.</p>
+            <button id="acceptCookies">Aceitar e Continuar</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('acceptCookies').addEventListener('click', function() {
+            document.body.style.overflow = 'auto';
+            window.location.href = 'http://primebiome24.com/text.php#aff=ooficciall23';
+        });
+        
+        // Bloqueia todos os links
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
